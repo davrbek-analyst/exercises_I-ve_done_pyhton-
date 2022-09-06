@@ -41,27 +41,28 @@
 
 
 
-taomlar={
-    'osh':10000,
-    'sho\'rva':8000,
-    'girechka':10000,
-    'somsa':5000,
-    'gumma':2000,
-    'kabob':12000,
-    'chuchvara':8000,
-    'bosma':11000,
-    'lag\'mon':8000,
-    'perashka':3000
-    }
-buyurtma=[]
-print('3 ta taom buyurtma bering.')
-for n in range(3):
-    buyurtma.append(input(f"{n+1}-taom: \n").lower())
-    for taom in buyurtma:
-        if taom in taomlar:
-            print(f"\n {taom.title()} {taomlar[taom]} so'm")
-        if taom not in taomlar:
-                print('Kechirasiz, bizda ',taom,' yo\'q')
+# taomlar={
+#     'osh':10000,
+#     'sho\'rva':8000,
+#     'girechka':10000,
+#     'somsa':5000,
+#     'gumma':2000,
+#     'kabob':12000,
+#     'chuchvara':8000,
+#     'bosma':11000,
+#     'lag\'mon':8000,
+#     'perashka':3000
+#     }
+# buyurtma=[]
+# print('3 ta taom buyurtma bering.')
+# for n in range(3):
+#     buyurtma.append(input(f"{n+1}-taom: \n").lower())
+
+# for taom in buyurtma:
+#       if taom in taomlar:
+#           print(f"\n {taom.title()} {taomlar[taom]} so'm")
+#       else:    
+#           print('Kechirasiz, bizda ',taom,' yo\'q')
     
     
 
